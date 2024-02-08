@@ -64,11 +64,12 @@ max-width: 600px;
     transition: ease-in-out;
 }
 
-.ai-travel-output {
-    padding: 20px 10px;
-    margin: 25px 0px 30px 0px;
+#travel-itinerary {
+    margin: 25px 0px 30px 5px;
     font-size: 16px;
     line-height: 1.5;
+    border-left: solid 2px #FE7B96;
+
 }
 
 a {
