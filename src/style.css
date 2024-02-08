@@ -1,8 +1,82 @@
+
+body {
+  background-image: url(../src/images/flowers.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+   font-family: "Barlow", sans-serif;
+}
+
+
+
 h1 {
-    text-align: center;
+text-align: center;   
+padding: 100px 0 20px;
+text-shadow: 5px 5px 10px rgba(60, 66, 69, 0.5);
+color: #3c4245;
+font-size: 42px;
+font-weight: 600;
+
+}
+
+form {
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.container {
+background-color: rgba(50, 145, 139, .5);
+padding: 10px 5px;
+border-radius: 20px;
+box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
+}
+
+.container, footer {
+margin: 20px auto;
+max-width: 600px;
+}
+
+.input-bar {
+    padding: 10px;
+    width: 80%;
+    border-radius: 15px;
+    line-height: 1.5;
+    border: 2px solid #FE7B96;
+    font-size: 16px;
+    color: #3c4245;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
+}
+
+.submit-button {
+  margin-left: 20px;
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: none; 
+  font-size: 14px;
+  background-color:#FE7B96; 
+  color: #3c4245;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
+}
+.submit-button:hover{
+    background-color: #3c4245;
+    color:#FE7B96;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+
+.ai-travel-output {
+    padding: 20px 10px;
+    margin: 25px 0px 30px 0px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #FE7B96;
 }
 
 footer {
     text-align: center;
-    
+    font-size: 13px;
+    padding: 20px;
 }
