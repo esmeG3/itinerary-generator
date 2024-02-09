@@ -3,18 +3,25 @@ body {
   background-image: url(../src/images/flowers.jpg);
   background-repeat: no-repeat;
   background-size:cover;
-   font-family: "Barlow", sans-serif;
+  font-family: "Barlow", sans-serif;
+background-color: #EAE5D7;
 }
 
-
-
-h1 {
-text-align: center;   
-padding: 100px 0 20px;
-text-shadow: 5px 5px 10px rgba(60, 66, 69, 0.5);
+h1, h3 {
+text-align: center; 
 color: #3c4245;
+text-shadow: 5px 5px 10px rgba(60, 66, 69, 0.5);
+}
+
+h1 {  
+padding-top: 100px;
 font-size: 42px;
 font-weight: 600;
+}
+
+h3 {
+padding-bottom: 20px;
+opacity: 0.8;
 
 }
 
@@ -33,7 +40,7 @@ box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
 
 .container, footer {
 margin: 20px auto;
-max-width: 600px;
+max-width: 700px;
 }
 
 .input-bar {
@@ -68,8 +75,10 @@ max-width: 600px;
     margin: 25px 0px 30px 5px;
     font-size: 16px;
     line-height: 1.5;
-    border-left: solid 2px #FE7B96;
+}
 
+#travel-itinerary strong {
+    color: #FE7B96;
 }
 
 a {
