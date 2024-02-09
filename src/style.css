@@ -1,8 +1,9 @@
 
 body {
   background-image: url(../src/images/flowers.jpg);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   font-family: "Barlow", sans-serif;
 background-color: #EAE5D7;
 }
