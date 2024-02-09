@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="src/style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Didact+Gothic&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Didact+Gothic&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
     <title>Travel Itinerary Generator</title>
-</head>
-<body>  
-     <h1> AI Travel Itinerary Generator</h1>
+  </head>
+  <body>
+
+        <h1>Your AI Itinerary Generator</h1>    
+        <h3>Three days of Travel </h3> 
     <div class="container">
- 
-<form class="travel-generator-form"> 
-    <input type="text" 
-    class="input-bar"
-    placeholder="Enter your destination.."
-    autofocus
-    required
-    />
-    <input type="submit"
-    class="submit-button"
-    />
-
-</form>
-<div id="travel-itinerary">
-    
-</div>
-
-   
-</div> 
-<footer>
-        This AI project was coded by 
-        <a href="https://github.com/esmeG3" target="_blank">Esme G</a> and is 
-        <a href="https://github.com/esmeG3/itinerary-generator" target="_blank">open sourced on Git Hub</a> and hosted on 
-        <a href="https://travelaigenerator.netlify.app/" target="_blank">Netlify</a>
-         - photo by <a href="https://www.pexels.com/photo/close-up-shot-of-a-map-with-small-pieces-of-flowers-7166020/"> Olha Ruskykh</a>
-</footer>
+      <form class="travel-generator-form">
+        <input
+          type="text"
+          class="input-bar"
+          id="user-input"
+          placeholder="Enter your destination.."
+          autofocus
+          required
+        />
+        <input type="submit" class="submit-button" />
+      </form>
+      <div id="travel-itinerary"></div>
+    </div>
+    <footer>
+      This AI project was coded by
+      <a href="https://github.com/esmeG3" target="_blank">Esme G</a> and is
+      <a href="https://github.com/esmeG3/itinerary-generator" target="_blank"
+        >open sourced on Git Hub</a
+      >
+      and hosted on
+      <a href="https://travelaigenerator.netlify.app/" target="_blank"
+        >Netlify</a
+      >
+      - photo by
+      <a
+        href="https://www.pexels.com/photo/close-up-shot-of-a-map-with-small-pieces-of-flowers-7166020/"
+      >
+        Olha Ruskykh</a
+      >
+    </footer>
     <script src="src/index.js"></script>
-</body>
+  </body>
 </html>
