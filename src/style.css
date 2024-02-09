@@ -71,6 +71,14 @@ max-width: 700px;
     transition: ease-in-out;
 }
 
+
+.hint {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: -15px;
+    font-weight: 500;
+}
+
 #travel-itinerary {
     margin: 25px 0px 30px 5px;
     font-size: 16px;
@@ -79,6 +87,9 @@ max-width: 700px;
 
 #travel-itinerary strong {
     color: #FE7B96;
+}
+.hidden {
+    display:none;
 }
 
 a {
@@ -90,3 +101,13 @@ footer {
     font-size: 13px;
     padding: 20px;
 }
+
+.loading {
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0;}
+}
+

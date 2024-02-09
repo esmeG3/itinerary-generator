@@ -19,7 +19,7 @@ function generateItinerary(event) {
   Begin on Day one, DO NOT INCLUDE A TITLE. 
   Write in HTML, no headings. 
   Make each day appear in strong format. 
-  Include a LineBreak after each day e.g. "Day one: 
+  Include a  LineBreak after each day e.g. "Day one: 
   (LineBreak)
   Day Two:"
   Write 150 words per day maximum.
@@ -28,6 +28,11 @@ function generateItinerary(event) {
  
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
   
+  let itineraryElement = document.querySelector("#travel-itinerary");
+  itineraryElement.classList.remove("hidden");
+  itineraryElement.innerHTML = `<span class="loading">Creating your itinerary for ${userInput.value}✈️ </span>`;
+
+
   console.log("creating itinerary");
   console.log(`prompt is ${prompt}`);
 
